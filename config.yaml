@@ -1,0 +1,43 @@
+#This is just a demo config. Please change it according to your needs
+
+keyboard_layout: us
+hostname: ForkMS
+locale: en_US.UTF-8
+charset: UTF-8
+timezone: Asia/Kolkata
+desktop_environment: gnome
+
+# Currently only supports nvidia and AMD
+proprietary_drivers: nvidia
+
+
+# Please double check the partition before proceeding
+disk: /dev/sda
+root_partition_size: 10240
+swap_partition_size: 2048
+boot_partition_size: 512M
+boot_partition_type: ef
+
+
+# Additional packages to install
+additional_packages:
+  - fish
+  - git
+  - neovim
+
+# Your superuser password here
+root_password: mypassword
+
+# User accounts
+users:
+  - madhurjya
+  - sandy
+passwords:
+  - password1
+  - password2
+groups:
+  - wheel
+  - users
+
+# Any kernel officially supported by Arch is allowed here
+kernel: linux-zen
