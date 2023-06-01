@@ -112,6 +112,9 @@ case $desktop_environment in
     "kde")
         pacman -S --noconfirm plasma-meta kde-applications
         ;;
+    "cutefish")
+        pacman -S --noconfirm cutefish
+        ;;
     "xfce")
         pacman -S --noconfirm xfce4 xfce4-goodies lightdm lightdm-gtk-greeter
         systemctl enable lightdm.service
