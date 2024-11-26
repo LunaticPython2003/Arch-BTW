@@ -31,10 +31,8 @@ root_password: mypassword
 # User accounts
 users:
   - madhurjya
-  - sandy
 passwords:
   - password1
-  - password2
 groups:
   - wheel
   - users
